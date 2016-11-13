@@ -47,6 +47,13 @@ footer {
   margin: 8%;
 }
 
+.turnCard {
+	height: 200px;
+	width: 150px;
+  background-color: #FFFFFF;
+  border-radius: 9px;
+}
+
 .name {
   color: #FF0000;
 }
