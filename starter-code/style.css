@@ -1,4 +1,4 @@
-h1, h2, p, footer {
+h1, h2, p, footer, button {
     text-align:center;
 }
 
@@ -27,6 +27,20 @@ h2 {
 	color: #FFD700;
 }
 
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: #FFD700;
+  color: white;
+  font-size: 12px;
+}
+
+button:hover {
+  background-color: rgb(2, 132, 130);;
+  color: white;
+  border: 1px black solid;
+}
+
 footer {
   background-color: #808080;
 }
@@ -35,6 +49,7 @@ footer {
 	height: 50%;
 	width: 50%;
 	display: inline-block;
+
 }
 
 .card {
